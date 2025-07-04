@@ -20,36 +20,31 @@ Periodismo digital, seguridad informativa, alfabetización mediática y tecnolog
 
 
 
-## Alcance
-La solución propuesta consiste en implementar un modelo de clasificación de texto utilizando técnicas de procesamiento de lenguaje natural (NLP), orientado a identificar si una noticia es falsa o verdadera. Esto se logrará mediante un enfoque supervisado, entrenando un modelo de machine learning sobre un conjunto de noticias previamente etiquetadas.
-
-El proceso incluirá técnicas de preprocesamiento textual como limpieza, tokenización y vectorización. Posteriormente, se aplicarán algoritmos como regresión logística con TF-IDF, random forests o modelos más avanzados basados en redes neuronales profundas. Además, se utilizarán representaciones vectoriales del texto mediante embeddings para capturar el significado semántico.
-
-El modelo resultante podrá ser integrado por el cliente en plataformas existentes, como sistemas de moderación de contenido, generación de reportes sobre la calidad informativa, o iniciativas educativas para ayudar a los usuarios a identificar noticias falsas.
-
 ## Metodología
-Enfoque TDSP: desde la comprensión del negocio hasta la evaluación y despliegue. Uso de algoritmos como Naive Bayes, Logistic Regression y redes neuronales.
+Enfoque TDSP(Team Data Science Process):  El algoritmo seleccionado previamente fue Regresión logística posterior al uso de un embedding frecuentista TF-IDF, sin embargo, se realizará una nueva extracción de características, un modelamiento enfocado en los ajustes de parámetros de modelos como xgboost, randomfores y regresión logística y el tamaño de los vectores del embedding. Una vez actualizado el modelo, se procederá con el despliegue empleando herramientas como github para el control de versiones, DVC para gestión de datos y modelos, MLflow para el seguimiento de experimentos, y ngrok para exponer servicios localmente durante pruebas. Esto conducirá a la generación de un pipeline reproducible y escalable.
+
 
 ## Cronograma
 
 | Etapa                                           | Duración estimada | Fechas                     |
 |------------------------------------------------|-------------------|----------------------------|
-| Entendimiento del negocio y carga de datos     | 2 semanas         | 1 de julio - 15 de julio   |
-| Preprocesamiento y análisis exploratorio       | 4 semanas         | 16 de julio - 15 de agosto |
-| Modelamiento y extracción de características   | 4 semanas         | 16 de agosto - 15 de sept. |
-| Despliegue                                     | 2 semanas         | 16 de sept. - 30 de sept.  |
-| Evaluación y entrega final                     | 3 semanas         | 1 de oct. - 21 de oct.     |
+| Entendimiento del negocio y carga de datos     | 1 semanas         | 26 de junio - 02 de julio   |
+| Preprocesamiento y análisis exploratorio       | 1 semanas         | 03 de julio - 09 de julio |
+| Modelamiento y extracción de características   | 1 semanas         | 10 de julio - 16 de julio |
+| Despliegue                                     | 2 semanas         | 17 de julio - 20 de julio  |
+| Evaluación y entrega final                     | 3 semanas         | 20 de julio - 26 de julio  |
+
 
 ## Equipo del Proyecto
 - John Mendoza – Analista de datos y líder del proyecto
-- Edilson Molano – Analista de datos y líder del proyecto
-- Luis Cardona – Analista de datos y líder del proyecto
+- Edison Molano – Analista de datos y líder del proyecto
+- Luis Cardon – Analista de datos y líder del proyecto
 
 ## Presupuesto
 Sin costo. Herramientas de código abierto y Google Colab
 
 ## Partes interesadas
-- Plataformas sociales, lectores de noticias, fact-checkers, gobiernos, medios, ONGs y patrocinadores del proyecto.
+- Plataformas sociales, fact-checkers, gobiernos, medios y ONGs
 
 ## Aprobaciones
 - John Mendoza – Responsable del proyecto
