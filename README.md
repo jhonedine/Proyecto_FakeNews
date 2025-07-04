@@ -61,21 +61,19 @@ Se combinan en un único DataFrame con una columna `label`:
 
 ---
 
-## 📅 Cronograma (ejemplo)
-
-| Etapa                            | Duración          | Fechas                  |
-|----------------------------------|-------------------|--------------------------|
-| Entendimiento del negocio        | 2 semanas         | 1 julio - 15 julio       |
-| Preprocesamiento y análisis      | 4 semanas         | 16 julio - 15 agosto     |
-| Modelamiento y evaluación        | 4 semanas         | 16 agosto - 15 septiembre|
-| Despliegue y visualización       | 2 semanas         | 16 septiembre - 30 sept. |
-| Informe final y presentación     | 3 semanas         | 1 octubre - 21 octubre   |
-
+## 📅 Cronograma
+| Etapa                                           | Duración estimada | Fechas                     |
+|------------------------------------------------|-------------------|----------------------------|
+| Entendimiento del negocio y carga de datos     | 1 semanas         | 26 de junio - 02 de julio   |
+| Preprocesamiento y análisis exploratorio       | 1 semanas         | 03 de julio - 09 de julio |
+| Modelamiento y extracción de características   | 1 semanas         | 10 de julio - 16 de julio |
+| Despliegue                                     | 1 semanas         | 17 de julio - 20 de julio  |
+| Evaluación y entrega final                     | 1 semanas         | 20 de julio - 26 de julio  |
 ---
 
 ## 🤝 Contribuciones y Stakeholders
 
-- **Líder del proyecto**: Edison Molano John Mendoza Luis Cardona
+- **Líder del proyecto**: Edison Molano -- John Mendoza --Luis Cardona
 - **Stakeholders**: plataformas sociales, gobiernos, fact-checkers, periodistas
 
 ---
