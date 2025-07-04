@@ -15,6 +15,12 @@ El proyecto busca abordar el creciente problema de la difusión masiva de notici
 
 Desde la perspectiva del negocio y del dominio, se pretende desplegar una solución basada en técnicas de procesamiento de lenguaje natural (NLP) probada que permite clasificar de forma eficiente noticias como verdaderas o falsas. Este proyecto contempla el despliegue en una interfaz de uso fácil un identificador de noticias falsas a través de su url.
 
+## Alcance
+La solución propuesta consiste en implementar un modelo de clasificación de texto utilizando técnicas de procesamiento de lenguaje natural (NLP), orientado a identificar si una noticia es falsa o verdadera. Esto se logrará mediante un enfoque supervisado, entrenando un modelo de machine learning sobre un conjunto de noticias previamente etiquetadas.
+
+El proceso incluirá técnicas de preprocesamiento textual como limpieza, tokenización y vectorización. Posteriormente, se aplicarán algoritmos como regresión logística con TF-IDF, random forests o modelos más avanzados basados en redes neuronales profundas. Además, se utilizarán representaciones vectoriales del texto mediante embeddings para capturar el significado semántico.
+
+El modelo resultante podrá ser integrado por el cliente en plataformas existentes, como sistemas de moderación de contenido, generación de reportes sobre la calidad informativa, o iniciativas educativas para ayudar a los usuarios a identificar noticias falsas.
 ## Dominio del Proyecto
 Periodismo digital, seguridad informativa, alfabetización mediática y tecnología de la información.
 
