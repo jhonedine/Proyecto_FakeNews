@@ -31,14 +31,14 @@ Enfoque TDSP(Team Data Science Process):  El algoritmo seleccionado previamente 
 | Entendimiento del negocio y carga de datos     | 1 semanas         | 26 de junio - 02 de julio   |
 | Preprocesamiento y análisis exploratorio       | 1 semanas         | 03 de julio - 09 de julio |
 | Modelamiento y extracción de características   | 1 semanas         | 10 de julio - 16 de julio |
-| Despliegue                                     | 2 semanas         | 17 de julio - 20 de julio  |
-| Evaluación y entrega final                     | 3 semanas         | 20 de julio - 26 de julio  |
+| Despliegue                                     | 1 semanas         | 17 de julio - 20 de julio  |
+| Evaluación y entrega final                     | 1 semanas         | 20 de julio - 26 de julio  |
 
 
 ## Equipo del Proyecto
 - John Mendoza – Analista de datos y líder del proyecto
 - Edison Molano – Analista de datos y líder del proyecto
-- Luis Cardon – Analista de datos y líder del proyecto
+- Luis Cardona – Analista de datos y líder del proyecto
 
 ## Presupuesto
 Sin costo. Herramientas de código abierto y Google Colab
