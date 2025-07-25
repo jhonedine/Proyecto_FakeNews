@@ -1,0 +1,22 @@
+[project]
+name = "mlcli" # Proyecto Fake News
+version = "0.1.0" # versión del proyecto
+description = "CLI para modelo de detección de Noticias Falsas" # descripción
+authors = [
+    {name="John Alexander Mendoza", email="jhondine182@gmail.com"},
+    {name="Luis Eduardo Cardona Pazmiño", email="luise90@gmail.com"},
+    {name="Edilson Albeiro Molano Bohorquez", email="edilson.molano@gmail.com"},
+    ] # autores con correo.
+
+dependencies = [
+    "scikit-learn >= 1.6.1",
+    "mlflow >= 3.1.4"
+    ]
+
+[build-system]
+requires = [
+        "setuptools", "wheel"
+        ]
+
+[project.scripts]
+mlcli = "mlcli:main" # cli

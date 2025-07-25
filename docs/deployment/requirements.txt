@@ -1,0 +1,16 @@
+# Librerías de Machine Learning
+scikit-learn==1.3.0
+xgboost==1.7.6
+pandas==2.1.1
+numpy==1.25.2
+
+# Despliegue con MLflow
+mlflow==2.9.2
+
+# CLI 
+click==8.1.7
+
+# Soporte para notebooks 
+ipykernel==6.25.1
+jupyter==1.0.0
+
