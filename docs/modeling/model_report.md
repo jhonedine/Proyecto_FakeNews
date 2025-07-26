@@ -3,7 +3,7 @@
 
 ## Resumen Ejecutivo
 
-Se presenta el problema de clasificación de noticias falsas. Este se aborda desde múltiples embeddings y clasificadores, siendo el mejor clasificador Random Forest Classifier con vectorizador TF-IDF. Con este se obtiene una precisión del 99.07%..
+Se presenta el problema de clasificación de noticias falsas. Este se aborda desde múltiples embeddings y clasificadores, siendo el mejor clasificador Regresión Logística con vectorizador TF-IDF. Con este se obtiene una precisión del 99.07%..
 
 ## Descripción del Problema
 
