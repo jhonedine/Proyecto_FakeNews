@@ -49,9 +49,15 @@ Instrucciones de instalación:
 6. Entrenar y registrar el modelo:
 7. Ejecutar las celdas siguientes para entrenar el modelo de Regresión Logística y registrarlo en MLflow con el nombre FakeN.
 
-- **Instrucciones de uso:**
-Para predecir si una noticia es falsa o verdadera, utiliza el siguiente comando en una celda de Colab, reemplazando el texto de ejemplo con la noticia que deseas analizar:
-#Ejemplo: !mlcli --text "El texto de la noticia que quieres verificar"
+## **Instrucciones de uso:**
+1. Ejecutar el comando de git para clonar el repositorio
+    !git clone https://github.com/jhonedine/Proyecto_FakeNews
+     %cd Proyecto_FakeNews/scripts/evaluation/models/
+     !cat Ejecutar_Modelo.py
+2. Copiar el contenido de este archivo y copiarlo en la siguiente celda
+3. Llamar la función
+   predict_fake_news(model)
+4. Agregar la noticia a verificar y dar enter
 
 - **Instrucciones de mantenimiento:**
 Reentrenamiento del modelo: Este modelo se debe reentrenar periódicamente con nuevos datos, agregandolos desde archivos CSV de noticias falsas y verdaderas etiquetadas y hacer el registro de las versiones en MLflow.
